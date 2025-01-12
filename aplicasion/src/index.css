@@ -1,0 +1,34 @@
+body { /*Estilo general del cuerpo de la pagina*/
+
+  font-family: Arial, sans-serif;/*Fuente principal Arial, secundaria sans-serif*/
+  text-align: center;/*Alinea el texto al centro*/
+  margin: 0;/*elimina el margen predeterminado*/
+  background-color: #f0f8ff;/*Color de fondo azul claro*/
+}
+
+h1 { /*Estilo para titulos h1*/
+  margin: 20px;/*Agrega un margen de 20px alrededor*/
+}
+
+input {/*Estilo para campos de entrada*/
+  padding: 10px;/*Espacio interno de 10px*/
+  margin: 10px;/*Espacio esterno de 10px*/
+  border-radius: 5px;/*Esquinas redondeadas*/
+  border:1px solid #ccc;/*Borde gris claro*/
+}
+button{/*Estilo para botones*/
+  padding: 10px 20px;/*Espacio interno(10px arriba/abajo,20px izquierda/derecha*/
+  border: none; /* Sin borde*/
+  background-color: #4caf50;/*color de fondo verde*/
+  color: white;/*Texto blanco*/
+  border-radius: 5px;/*Esquinas redondeadas*/
+  cursor: pointer;/*Cursor tipo puntero (mano) */
+}
+
+button:hover{/*Efecto al pasar el cursor sobre el boton*/
+    background-color: #45a049;/*Verde mas oscuro*/
+}
+
+div {/*Estilo para contenedores div*/
+  margin-top: 20px; /*Margen superior de 20px*/
+}
